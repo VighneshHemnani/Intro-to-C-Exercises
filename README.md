@@ -2,7 +2,7 @@
 
 ## Project description
 
-As a part of my introduction to the programming language **C**, I coded nine basic problems that deal with a combination of linked lists, string manipulation, Hash tables, BSTs and more all in C. There are in total nine tasks and the description for what each task entails, input and output are listed as below (if you choose to look at the original .pdf, you can find it here.
+As a part of my introduction to the programming language **C**, I coded nine basic problems that deal with a combination of linked lists, string manipulation, Hash tables, BSTs and more all in C. There are in total nine tasks and the description for what each task entails, input and output are listed as below (if you choose to look at the original .pdf, you can find it [here](task.pdf).
 
 ## Nine tasks:
 
