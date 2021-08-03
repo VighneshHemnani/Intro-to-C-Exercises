@@ -6,7 +6,7 @@ As a part of my introduction to the programming language **C**, I coded nine bas
 
 ## Nine tasks:
 
-Here are the nine tasks are a brief introduction into C-programming:
+Here are the nine tasks are a brief introduction into C-programming (and the links to them - have a look! :blush:):
 
 1. **first - Right Truncatable Prime:** A program that will read an array from a file and print if the numbers in the file are right truncatable primes. A right truncatable prime is a prime number, where if you truncate any numbers from the right, the resulting number is still prime. For example, 3797 is a truncatable prime number number because 3797, 379, 37, and 3 are all primes.
 2. **second - Linked Lists:** In this part, I had to implement a linked list that maintains a list of integers in sorted order. Thus, if the list contains 2, 5 and 8, then 1 will be inserted at the start of the list, 3 will be inserted between 2 and 5 and 10 will be inserted at the end.
