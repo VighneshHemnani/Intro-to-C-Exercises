@@ -34,24 +34,4 @@ sts
 
 ## How can I view this project?
 
-1. You can view the .mp4 video demonstration of the webapp as well as the database in its entirety by going to the [demo video](demo_video.mp4) OR
-2. You can download and run the files as you like:
-
-Software needed:
-
-   - Tomcat (or any preferred alternative)  
-   - A browser (Safari, Chrome etc.)  
-   - Database Management Tool (like MySQL Workbench)  
-   - IDE (like Eclipse)  
-
-   To view this project, you would first need to recreate the tables in the database: using your preferred software, you can use the creation table code in  [create_table_statements.pdf](create_table_statements.pdf) to create the empty tables. Then, you can import the sample data points that were provided to us so that way, you can view and run the code in the webapp. Then, once you have done that, you can download the webapp folder and run the [index.jsp](webapp/index.jsp) in your preferred IDE. Ensure that Tomcat is installed and working correctly, and then you can run the website on whichever browser you prefer.
-
-## What can I find in this repo?
-
-Here's a list of all the files in this repo and what they are:
-
-1. [constraint_checking.pdf](constraint_checking.pdf) - A .pdf file that contains two queries that checks two constraints to ensure the database has been set up correctly.
-2. [database.sql](database.sql) - A .sql file that contains all the tuples/data of each bar, beer, drinker and more information that was used in the database for this project. 
-3. [demo_video.mp4](demo_video.mp4) - A .mp4 that runs through the entire project briefly: a sitemap of the web application, the database schema, the constraint checking, sample user testing of the dynamic queries' output via table and graphs as well as dynamic updation and deletion (plus error catching). 
-4. [webapp](/webapp/) - A simple and clean web application made in Eclipse using HTMl, CSS and Javascript that displays tables and graph of results of dynamic queries from the user. Once set up properly, the web application also allows the user to dynamically update, modify or delete tuples from the database. Here are a few .gifs that help visualize the entire web application and a brief sitemap if you don't want to download and watch the demonstration video. 
-5. [create_table_statements.pdf](create_table_statements.pdf) - A .pdf file that allows you to see the CREATE TABLE statements used in the SQL database. This also contains the different variables, primary keys and foriegn keys for each table.
+Viewing this project is pretty straightforward. Pick a task that you want to view, download the folder of that task, compile/make the Makefile (it should be made for you already but you can do it again just in case), and run! Have a look at [task.pdf](task.pdf) in order to know what to put in the arguments or the format of the .txt files that need to be scanned in to run the program. 
