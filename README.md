@@ -34,4 +34,4 @@ sts
 
 ## How can I view this project?
 
-Viewing this project is pretty straightforward. Pick a task that you want to view, download the folder of that task, compile/make the Makefile (it should be made for you already but you can do it again just in case), and run! Have a look at [task.pdf](task.pdf) in order to know what to put in the arguments or the format of the .txt files that need to be scanned in to run the program. 
+Viewing this project is pretty straightforward. Pick a task that you want to view, download the folder of that task, make the Makefile and executable (it should be made for you already but you can do it again just in case), and run! Have a look at [task.pdf](task.pdf) in order to know what to put in the arguments or the format of the .txt files that need to be scanned in to run the program. 
