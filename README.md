@@ -6,14 +6,17 @@ As a part of my introduction to the programming language **C**, I coded nine bas
 
 ## Nine tasks:
 
-List:
+Here are the nine tasks are a brief introduction into C-programming:
 
 1. **first - Right Truncatable Prime:** A program that will read an array from a file and print if the numbers in the file are right truncatable primes. A right truncatable prime is a prime number, where if you truncate any numbers from the right, the resulting number is still prime. For example, 3797 is a truncatable prime number number because 3797, 379, 37, and 3 are all primes.
 2. **second - Linked Lists:** In this part, I had to implement a linked list that maintains a list of integers in sorted order. Thus, if the list contains 2, 5 and 8, then 1 will be inserted at the start of the list, 3 will be inserted between 2 and 5 and 10 will be inserted at the end.
 3. **third - Hash tables:** In this part, I implemented a hash table containing integers. The hash table has 1000 buckets. An important part of a hash table is collision resolution. In this assignment, I used chaining with a linked list to handle a collision. This means that if there is a collision at a particular bucket then you will maintain a linked list of all values stored at that bucket. Note that a linear search was not implemented of the 1000 element array (resulting in a worst case run-time of O(n)). Hash function: key modulo the number of buckets.
 4. **fourth - Matrix Multiplication:**  In this task, I created a program that multiplies two matrices and outputs the resulting matrix. The input matrices can be the same or different sizes. One of the main focuses of this task was to practice and test our ability to manage memory using malloc(). 
 5. **fifth - Matrix Squares:** A magic square is an arrangement of the numbers from 1 to n<sup>2</sup> in an (n x n) matrix, with each number occurring exactly once, and such that the sum of the entries of any row, any column, or any main diagonal is the same. This program is supposed to take in information of the matrix oa neighboring .txt file, and then check if the matrix is in the magic square arrangment or not.
-6. **sixth - Pig Latin:** 
+6. **sixth - Pig Latin:** In this program, I wrote C code that would read an input string from the argument (console) representing a sentence, and convert it into pig latin. As a reference, the rules of pig latin are:
+
+     * If the word begins with a consonant then take all the letters up until the first vowel and put them at the end and then add “ay” at the end.
+     * If the word begins with a vowel then simply add “yay” to the end.
 
 7. 5
 8. 6
