@@ -13,16 +13,24 @@ Here are the nine tasks are a brief introduction into C-programming:
 3. **third - Hash tables:** In this part, I implemented a hash table containing integers. The hash table has 1000 buckets. An important part of a hash table is collision resolution. In this assignment, I used chaining with a linked list to handle a collision. This means that if there is a collision at a particular bucket then you will maintain a linked list of all values stored at that bucket. Note that a linear search was not implemented of the 1000 element array (resulting in a worst case run-time of O(n)). Hash function: key modulo the number of buckets.
 4. **fourth - Matrix Multiplication:**  In this task, I created a program that multiplies two matrices and outputs the resulting matrix. The input matrices can be the same or different sizes. One of the main focuses of this task was to practice and test our ability to manage memory using malloc(). 
 5. **fifth - Matrix Squares:** A magic square is an arrangement of the numbers from 1 to n<sup>2</sup> in an (n x n) matrix, with each number occurring exactly once, and such that the sum of the entries of any row, any column, or any main diagonal is the same. This program is supposed to take in information of the matrix oa neighboring .txt file, and then check if the matrix is in the magic square arrangment or not.
-6. **sixth - Pig Latin:** In this program, I wrote C code that would read an input string from the argument (console) representing a sentence, and convert it into pig latin. As a reference, the rules of pig latin are:
+6. **sixth - Pig Latin:** In this program, I wrote C code that would read an input string from the argument (console) representing a sentence, and convert it into pig latin. Some assumptions in the user-input string is that there will be only characters and no numbers or punctuation. As a reference, the rules of pig latin are:
 
      * If the word begins with a consonant then take all the letters up until the first vowel and put them at the end and then add “ay” at the end.
      * If the word begins with a vowel then simply add “yay” to the end.
 
-7. 5
-8. 6
-9. 7
-10. 8
-11. 9
+7. **seventh - String Operations:** In this task, I read an input string representing a sentence, formed a word whose letters are the last letters or punctuation of the words in the given sentence, and printed it. Here are some examples:
+
+```
+$./seventh Hello World!
+o!
+$./seventh Welcome to CS211
+eo1
+$./seventh Rutgers Scarlet Knights
+sts
+```
+
+8. **eighth - Binary Search Tree:** For this program, I implemented a binary search tree that satisfies the binary search tree property: the key in each node must be greater than all keys stored in the left sub-tree, and smaller than all keys in right sub-tree. I also dynamically allocated space for each node and freed the space for the nodes at the end of the program.
+9. **ninth - Deletion with BST:** This last program is an extension of the previous task where I also add code to accomodate a deletion feature. For one child, it is straightforward - you make the parent of the node to be deleted point to that child. In this scenario, special attention must be paid only when the node to be deleted is the root. Deleting a node with two children requires some more work. In this case, you must find the minimum element in the right subtree of the node to be deleted. Then you insert that node in the place where the node to be deleted was. This process needs to be repeated to delete the minimum node that was just moved.
 
 ## How can I view this project?
 
