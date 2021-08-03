@@ -2,7 +2,7 @@
 
 ## Project description
 
-As a part of my introduction to the programming language **C**, I coded nine basic problems that deal with a combination of linked lists, string manipulation, Hash tables, BSTs and more all in C. There are in total nine tasks and below are brief descriptions of each task (if you choose to look into more detail of the input and output, see the original .pdf, which you can find it [here](task.pdf). Note that each task is named "first", "second" etc. 
+As a part of my introduction to the programming language **C**, I coded nine basic problems that deal with a combination of linked lists, string manipulation, Hash tables, BSTs and more. In total, there are nine tasks and below are brief descriptions of each task (if you choose to look into more detail of the input and output, see the original .pdf, which you can find it [here](task.pdf). Note that each task is named "first", "second" etc. 
 
 ## Nine tasks:
 
@@ -19,7 +19,6 @@ Here are the nine tasks are a brief introduction into C-programming (and the lin
      * If the word begins with a vowel then simply add “yay” to the end.
 
 7. **seventh - String Operations:** In this task, I read an input string representing a sentence, formed a word whose letters are the last letters or punctuation of the words in the given sentence, and printed it. Here are some examples:
-
 ```
 $./seventh Hello World!
 o!
@@ -28,7 +27,6 @@ eo1
 $./seventh Rutgers Scarlet Knights
 sts
 ```
-
 8. **eighth - Binary Search Tree:** For this program, I implemented a binary search tree that satisfies the binary search tree property: the key in each node must be greater than all keys stored in the left sub-tree, and smaller than all keys in right sub-tree. I also dynamically allocated space for each node and freed the space for the nodes at the end of the program.
 9. **ninth - Deletion with BST:** This last program is an extension of the previous task where I also add code to accomodate a deletion feature. For one child, it is straightforward - you make the parent of the node to be deleted point to that child. In this scenario, special attention must be paid only when the node to be deleted is the root. Deleting a node with two children requires some more work. In this case, you must find the minimum element in the right subtree of the node to be deleted. Then you insert that node in the place where the node to be deleted was. This process needs to be repeated to delete the minimum node that was just moved.
 
